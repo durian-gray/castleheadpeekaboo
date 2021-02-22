@@ -46,3 +46,8 @@ function mouseClicked() {
 	vid.play();
 	counter++;
 }
+function touchStarted() {
+	vid.play();
+	counter++;
+	return false;
+}
